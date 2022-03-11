@@ -1,0 +1,2 @@
+/usr/bin/x86_64-linux-gnu-ar qc libsource.a CMakeFiles/source.dir/source_autogen/mocs_compilation.cpp.o CMakeFiles/source.dir/src/mainWidget.cpp.o CMakeFiles/source.dir/src/connection.cpp.o
+/usr/bin/x86_64-linux-gnu-ranlib libsource.a

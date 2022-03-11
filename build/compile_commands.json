@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/wei-che/PLC/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wei-che/PLC/build/source_autogen/include -I/home/wei-che/PLC/./include -isystem /home/wei-che/anaconda3/include/qt -isystem /home/wei-che/anaconda3/include/qt/QtWidgets -isystem /home/wei-che/anaconda3/include/qt/QtGui -isystem /home/wei-che/anaconda3/include/qt/QtCore -isystem /home/wei-che/anaconda3/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/source.dir/source_autogen/mocs_compilation.cpp.o -c /home/wei-che/PLC/build/source_autogen/mocs_compilation.cpp",
+  "file": "/home/wei-che/PLC/build/source_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/wei-che/PLC/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wei-che/PLC/build/source_autogen/include -I/home/wei-che/PLC/./include -isystem /home/wei-che/anaconda3/include/qt -isystem /home/wei-che/anaconda3/include/qt/QtWidgets -isystem /home/wei-che/anaconda3/include/qt/QtGui -isystem /home/wei-che/anaconda3/include/qt/QtCore -isystem /home/wei-che/anaconda3/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/source.dir/src/mainWidget.cpp.o -c /home/wei-che/PLC/src/mainWidget.cpp",
+  "file": "/home/wei-che/PLC/src/mainWidget.cpp"
+},
+{
+  "directory": "/home/wei-che/PLC/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wei-che/PLC/build/source_autogen/include -I/home/wei-che/PLC/./include -isystem /home/wei-che/anaconda3/include/qt -isystem /home/wei-che/anaconda3/include/qt/QtWidgets -isystem /home/wei-che/anaconda3/include/qt/QtGui -isystem /home/wei-che/anaconda3/include/qt/QtCore -isystem /home/wei-che/anaconda3/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/source.dir/src/connection.cpp.o -c /home/wei-che/PLC/src/connection.cpp",
+  "file": "/home/wei-che/PLC/src/connection.cpp"
+},
+{
+  "directory": "/home/wei-che/PLC/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wei-che/PLC/build/test_autogen/include -I/home/wei-che/PLC/./include -isystem /home/wei-che/anaconda3/include/qt -isystem /home/wei-che/anaconda3/include/qt/QtWidgets -isystem /home/wei-che/anaconda3/include/qt/QtGui -isystem /home/wei-che/anaconda3/include/qt/QtCore -isystem /home/wei-che/anaconda3/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o -c /home/wei-che/PLC/build/test_autogen/mocs_compilation.cpp",
+  "file": "/home/wei-che/PLC/build/test_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/wei-che/PLC/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wei-che/PLC/build/test_autogen/include -I/home/wei-che/PLC/./include -isystem /home/wei-che/anaconda3/include/qt -isystem /home/wei-che/anaconda3/include/qt/QtWidgets -isystem /home/wei-che/anaconda3/include/qt/QtGui -isystem /home/wei-che/anaconda3/include/qt/QtCore -isystem /home/wei-che/anaconda3/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/test.dir/src/test.cpp.o -c /home/wei-che/PLC/src/test.cpp",
+  "file": "/home/wei-che/PLC/src/test.cpp"
+}
+]

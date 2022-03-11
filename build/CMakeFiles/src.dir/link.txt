@@ -1,0 +1,2 @@
+/usr/bin/x86_64-linux-gnu-ar qc libsrc.a CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o
+/usr/bin/x86_64-linux-gnu-ranlib libsrc.a

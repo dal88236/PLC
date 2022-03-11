@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7 -g -rdynamic CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o CMakeFiles/main.dir/src/main.cpp.o -o main  -Wl,-rpath,/home/wei-che/anaconda3/lib libsource.a /home/wei-che/anaconda3/lib/libQt5Widgets.so.5.9.7 /home/wei-che/anaconda3/lib/libQt5Gui.so.5.9.7 /home/wei-che/anaconda3/lib/libQt5Core.so.5.9.7 
