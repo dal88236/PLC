@@ -130,17 +130,17 @@ source/fast:
 .PHONY : source/fast
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named main
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named source_autogen
@@ -156,17 +156,41 @@ source_autogen/fast:
 .PHONY : source_autogen/fast
 
 #=============================================================================
-# Target rules for targets named test_autogen
+# Target rules for targets named main_autogen
 
 # Build rule for target.
-test_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_autogen
-.PHONY : test_autogen
+main_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_autogen
+.PHONY : main_autogen
 
 # fast build rule for target.
-test_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_autogen.dir/build.make CMakeFiles/test_autogen.dir/build
-.PHONY : test_autogen/fast
+main_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_autogen.dir/build.make CMakeFiles/main_autogen.dir/build
+.PHONY : main_autogen/fast
+
+main_autogen/mocs_compilation.o: main_autogen/mocs_compilation.cpp.o
+.PHONY : main_autogen/mocs_compilation.o
+
+# target to build an object file
+main_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o
+.PHONY : main_autogen/mocs_compilation.cpp.o
+
+main_autogen/mocs_compilation.i: main_autogen/mocs_compilation.cpp.i
+.PHONY : main_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+main_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i
+.PHONY : main_autogen/mocs_compilation.cpp.i
+
+main_autogen/mocs_compilation.s: main_autogen/mocs_compilation.cpp.s
+.PHONY : main_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+main_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s
+.PHONY : main_autogen/mocs_compilation.cpp.s
 
 source_autogen/mocs_compilation.o: source_autogen/mocs_compilation.cpp.o
 .PHONY : source_autogen/mocs_compilation.o
@@ -216,6 +240,30 @@ src/connection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/source.dir/build.make CMakeFiles/source.dir/src/connection.cpp.s
 .PHONY : src/connection.cpp.s
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 src/mainWidget.o: src/mainWidget.cpp.o
 .PHONY : src/mainWidget.o
 
@@ -240,54 +288,6 @@ src/mainWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/source.dir/build.make CMakeFiles/source.dir/src/mainWidget.cpp.s
 .PHONY : src/mainWidget.cpp.s
 
-src/test.o: src/test.cpp.o
-.PHONY : src/test.o
-
-# target to build an object file
-src/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cpp.o
-.PHONY : src/test.cpp.o
-
-src/test.i: src/test.cpp.i
-.PHONY : src/test.i
-
-# target to preprocess a source file
-src/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cpp.i
-.PHONY : src/test.cpp.i
-
-src/test.s: src/test.cpp.s
-.PHONY : src/test.s
-
-# target to generate assembly for a file
-src/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cpp.s
-.PHONY : src/test.cpp.s
-
-test_autogen/mocs_compilation.o: test_autogen/mocs_compilation.cpp.o
-.PHONY : test_autogen/mocs_compilation.o
-
-# target to build an object file
-test_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o
-.PHONY : test_autogen/mocs_compilation.cpp.o
-
-test_autogen/mocs_compilation.i: test_autogen/mocs_compilation.cpp.i
-.PHONY : test_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-test_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.i
-.PHONY : test_autogen/mocs_compilation.cpp.i
-
-test_autogen/mocs_compilation.s: test_autogen/mocs_compilation.cpp.s
-.PHONY : test_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-test_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.s
-.PHONY : test_autogen/mocs_compilation.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,25 +296,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... main_autogen"
 	@echo "... source_autogen"
-	@echo "... test_autogen"
+	@echo "... main"
 	@echo "... source"
-	@echo "... test"
+	@echo "... main_autogen/mocs_compilation.o"
+	@echo "... main_autogen/mocs_compilation.i"
+	@echo "... main_autogen/mocs_compilation.s"
 	@echo "... source_autogen/mocs_compilation.o"
 	@echo "... source_autogen/mocs_compilation.i"
 	@echo "... source_autogen/mocs_compilation.s"
 	@echo "... src/connection.o"
 	@echo "... src/connection.i"
 	@echo "... src/connection.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/mainWidget.o"
 	@echo "... src/mainWidget.i"
 	@echo "... src/mainWidget.s"
-	@echo "... src/test.o"
-	@echo "... src/test.i"
-	@echo "... src/test.s"
-	@echo "... test_autogen/mocs_compilation.o"
-	@echo "... test_autogen/mocs_compilation.i"
-	@echo "... test_autogen/mocs_compilation.s"
 .PHONY : help
 
 

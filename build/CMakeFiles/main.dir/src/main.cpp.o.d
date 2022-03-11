@@ -129,4 +129,156 @@ CMakeFiles/main.dir/src/main.cpp.o: /home/wei-che/PLC/src/main.cpp \
  /usr/include/c++/7/bits/locale_facets.tcc \
  /usr/include/c++/7/bits/basic_ios.tcc \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
- /usr/include/c++/7/bits/istream.tcc
+ /usr/include/c++/7/bits/istream.tcc \
+ /home/wei-che/PLC/./include/mainWidget.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/QWidget \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qtguiglobal.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qglobal.h \
+ /usr/include/c++/7/cstddef /usr/include/c++/7/utility \
+ /usr/include/c++/7/bits/stl_relops.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qconfig.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qtcore-config.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qsystemdetection.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qprocessordetection.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qcompilerdetection.h \
+ /usr/include/c++/7/algorithm /usr/include/c++/7/bits/stl_algo.h \
+ /usr/include/c++/7/bits/algorithmfwd.h \
+ /usr/include/c++/7/bits/stl_heap.h /usr/include/c++/7/bits/stl_tempbuf.h \
+ /usr/include/c++/7/bits/stl_construct.h \
+ /usr/include/c++/7/bits/uniform_int_dist.h /usr/include/c++/7/limits \
+ /home/wei-che/anaconda3/include/qt/QtCore/qtypeinfo.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qsysinfo.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qlogging.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qflags.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qatomic.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qbasicatomic.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qatomic_cxx11.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qgenericatomic.h \
+ /usr/include/c++/7/atomic /usr/include/c++/7/bits/atomic_base.h \
+ /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qglobalstatic.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qnumeric.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qversiontagging.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qtgui-config.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qwindowdefs.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qobjectdefs.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qnamespace.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qobject.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qstring.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qchar.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qbytearray.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qrefcount.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qarraydata.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/c++/7/stdlib.h \
+ /usr/include/c++/7/iterator /usr/include/c++/7/bits/stream_iterator.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qlist.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qalgorithms.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qiterator.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qhashfunctions.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qpair.h \
+ /usr/include/c++/7/numeric /usr/include/c++/7/bits/stl_numeric.h \
+ /usr/include/c++/7/list /usr/include/c++/7/bits/stl_list.h \
+ /usr/include/c++/7/bits/allocated_ptr.h \
+ /usr/include/c++/7/ext/aligned_buffer.h /usr/include/c++/7/bits/list.tcc \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qbytearraylist.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qstringlist.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qregexp.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qstringmatcher.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qscopedpointer.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qmetatype.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qvarlengtharray.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qcontainerfwd.h \
+ /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_uninitialized.h \
+ /usr/include/c++/7/bits/stl_vector.h \
+ /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
+ /usr/include/c++/7/map /usr/include/c++/7/bits/stl_tree.h \
+ /usr/include/c++/7/bits/stl_map.h /usr/include/c++/7/tuple \
+ /usr/include/c++/7/array /usr/include/c++/7/bits/uses_allocator.h \
+ /usr/include/c++/7/bits/invoke.h /usr/include/c++/7/bits/stl_multimap.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qobject_impl.h \
+ /usr/include/c++/7/chrono /usr/include/c++/7/ratio \
+ /usr/include/c++/7/ctime /usr/include/c++/7/bits/parse_numbers.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qmargins.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qpaintdevice.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qrect.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qsize.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qpoint.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qpalette.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qcolor.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qrgb.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qrgba64.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qbrush.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qvector.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qmatrix.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qpolygon.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qregion.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qdatastream.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qiodevice.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qline.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qtransform.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qpainterpath.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qimage.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qpixelformat.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qpixmap.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qsharedpointer.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qshareddata.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qhash.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qfont.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qfontmetrics.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qfontinfo.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qcursor.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qkeysequence.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/QLabel \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qlabel.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qframe.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/QPushButton \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qpushbutton.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qicon.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/QLineEdit \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qlineedit.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qtextcursor.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qtextformat.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qmap.h \
+ /usr/include/c++/7/functional /usr/include/c++/7/bits/std_function.h \
+ /usr/include/c++/7/bits/refwrap.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qpen.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qtextoption.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/QComboBox \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qcombobox.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qstyleoption.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qlocale.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qabstractspinbox.h \
+ /home/wei-che/anaconda3/include/qt/QtGui/qvalidator.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qregularexpression.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qslider.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qabstractslider.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qstyle.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qtabbar.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qrubberband.h \
+ /home/wei-che/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/QHBoxLayout \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qboxlayout.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qlayout.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qlayoutitem.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qboxlayout.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/qgridlayout.h \
+ /home/wei-che/anaconda3/include/qt/QtWidgets/QVBoxLayout

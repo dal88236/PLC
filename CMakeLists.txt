@@ -28,8 +28,8 @@ include_directories(
 )
 target_link_libraries(source Qt5::Widgets Qt5::Core)
 
-# add_executable(main ./src/main.cpp) 
-# target_link_libraries(main source)
+add_executable(main ./src/main.cpp) 
+target_link_libraries(main source)
 
-add_executable(test ./src/test.cpp)
-target_link_libraries(test source)
+# add_executable(test ./src/test.cpp)
+# target_link_libraries(test source)

@@ -10,7 +10,7 @@ class MainWidget : public QWidget
 {
     Q_OBJECT
 public:
-    MainWidget();
+    MainWidget(QObject* parent=nullptr);
     ~MainWidget();
 
 private:
@@ -43,4 +43,9 @@ private:
     QLineEdit* _PLCValue_1;
     QLineEdit* _PLCValue_2;
     QLineEdit* _PLCValue_3;
+
+    // Layout
+    QVBoxLayout* _vbox1;
+    QVBoxLayout* _vbox2;
+    QHBoxLayout* _hbox1;
 };

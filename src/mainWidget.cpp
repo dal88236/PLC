@@ -1,6 +1,6 @@
 #include "mainWidget.h"
 
-MainWidget::MainWidget()
+MainWidget::MainWidget(QObject* parent)
 {
     /*
     QPushButton* _convertASCIIBtn;
@@ -49,6 +49,18 @@ MainWidget::MainWidget()
    _PLCReadVariableLabel_1 = new QLabel("PLC Variables");
    _PLCReadValueLabel_2 = new QLabel("Values");
    _writingStatus = new QLabel("Status");
+
+   _connectFrameworkBox = new QComboBox();
+   _connectModuleBox = new QComboBox();
+
+   _convertRequest = new QLineEdit();
+   _convertResponse = new QLineEdit();
+   _IPAddressInput = new QLineEdit();
+
+   _vbox1 = new QVBoxLayout();
+   _vbox2 = new QVBoxLayout();
+
+   _vbox1->addWidget(_convertASCIIBtn);
 }
 
 MainWidget::~MainWidget()
